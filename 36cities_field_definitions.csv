@@ -1,0 +1,36 @@
+Field Name,Definition
+Region,"United States Region of interest. Six codes - ""New England & Mid Atlantic"", ""N. Central"", ""S. Central"", ""Pacific"", ""Mountain"", ""S. Atlantic"""
+Sub Region,Sub region within each region - Twelve codes - there are two sub-regions per region
+City,City name
+City Index,Arbitrary index assignment for each city from 2 to 7 to create a labelled factor column (categorical variable) as opposed to a string column in STATA
+State,Two letter ISO 3166-2 US state code
+State.FIPS.Code,State FIPS code defined by ANSI and Census Bureau
+Place.FIPS.Code,Place FIPS code defined by ANSI and Census Bureau
+GEOID,Concatenation of the State and Place FIPS codes recognized by GIS packages for joining against shapefile vectors
+Year,Years from 2010-2015
+MMWR Week,Weeks within a year from 1-52 (note the 53rd week of 2014 is omitted as defined in the data description)
+Lookup Index,Concatenation of the Year and the Week into a single reference identifier for the timepoint
+Deaths_Pneumonia_and_Influenza,Number of self-reported pneumonia and influenza deaths from the CDC Wonder MMWR CMRS archive database
+Average LST_degC,Average Land Surface temperature from MOD11A1 database in degree celsius for each MMWR week
+Average_NDVI,Average NDVI from MOD13Q1 database (no units) for each MMWR week
+TotalpopA,Total Population (annual) from S0101 table in ACS 1 year dataset
+Malepop,Male population
+pctmale,Percentage Male
+Femalepop,Female population
+Medianage,Median age (years)
+TotalpopB,Total Population (annual) from B01001 table in ACS 1 year dataset
+Age60andover,Population aged 60 years and older
+pct60andover,Percentage aged 60 years and older
+Age65andover,Population aged 65 years and older
+pct65andover,Percentage aged 65 years and older
+Age75andover,Population aged 75 years and older
+pct75andover,Percentage aged 75 years and older
+TotalpopC,Total Population (annual) from B02001 table in ACS 1 year dataset
+Whitepop,White population
+pct_white,Percentage White
+Blackpop,Black or African American population
+pct_black,Percentage Black
+AmericanIndian_AlaskaNativepop,American Indian and Alaskan Native population
+Asianpop,Asian population
+NativeHawaiian_PacificIslanderpop,Native Hawaiian and Pacific Islander population
+Otherpop,Other population (Includes Hispanic and other races)
